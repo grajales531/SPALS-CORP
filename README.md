@@ -1,7 +1,17 @@
 # SPALS-CORP
 
-Plataforma en construcción para desarrollar aplicaciones web y, después, móviles con un equipo humano y agentes de IA.
+Plataforma en construcción para crear aplicaciones web y, después, móviles con cuatro desarrolladores y agentes de IA.
 
-La dirección del proyecto conserva la decisión final de arquitectura e integración. Los cambios del equipo se realizan mediante ramas y pull requests.
+## Estado
 
-Estado: repositorio inicializado. Las reglas y la planificación se propondrán en un PR. Todavía no hay motor ejecutable ni aplicación.
+Esta propuesta contiene el protocolo de coordinación, la planificación y las plantillas. Todavía no hay motor ejecutable, app, CI ni protección de main verificada.
+
+## Inicio
+
+1. Leer [AGENTS.md](AGENTS.md).
+2. Consultar [gobernanza](docs/GOBERNANZA.md) y [plan de arranque](docs/PLAN_DE_ARRANQUE.md).
+3. Revisar [stack propuesto](docs/ADR-001-STACK-PROPUESTO.md).
+4. Recibir una tarea completa y aprobada antes de editar.
+5. Entregar código, evidencia y PR siguiendo las plantillas.
+
+La dirección humana decide la arquitectura y autoriza integrar. Cada agente trabaja con su propia identidad, rama y alcance.
