@@ -1,0 +1,24 @@
+{
+  "name": "spals-corp",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "tools/*"
+  ],
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11 <12"
+  },
+  "packageManager": "npm@11.19.0",
+  "scripts": {
+    "build": "tsc -b tools/harness",
+    "typecheck": "tsc -b tools/harness --noEmit",
+    "test": "npm run build && node --test \"tools/*/test/**/*.test.ts\"",
+    "check": "npm run test",
+    "harness": "node tools/harness/dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "7.0.2"
+  }
+}
